@@ -1,0 +1,386 @@
+
+
+.over-image {
+    position: absolute;
+    top: 15%;
+}
+
+.tomato {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.login {
+    display: inline-block;
+    border: solid white;
+    border-radius: 10%;
+    margin-right: 20px;
+    color: white;
+}
+
+.login-account {
+    display: inline-block;
+    float: right;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.create_account {
+    display: inline-block;
+    border: solid white;
+    border-radius: 6%;
+    color: white;
+}
+
+.header {
+    height: 70px;
+    position: absolute;
+    top: 0%;
+}
+
+
+.Find-the-best-restaurants-cafés {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+
+}
+
+.dropDown_and_searchbar {
+    text-align: center;
+}
+
+.dropdown {
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+}
+
+.search {
+    width: 300px;
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 5%;
+}
+
+.search-for-inline-block {
+
+    display: inline-block;
+}
+
+.footer {
+    background-color: cadetblue;
+    height: 60px;
+    text-align: center;
+}
+
+.fa-copyright {
+    margin-top: 20px;
+}
+
+.owner_image_box {
+    height: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.owner_image {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.content_image {
+    display: inline-block;
+    width: 50%;
+}
+
+.main_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.content_header
+{
+    vertical-align: top;
+}
+
+.Quick-Searches {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 175px;
+}
+
+
+.Discover-restaurants-by-type-of-meal {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-left: 175px;
+    margin-bottom: 30px;
+}
+
+
+
+.item {
+    width: 370px;
+    height: 160px;
+
+
+    box-shadow: 0 3px 6px 0 red;
+
+}
+
+.fab-fa-search {
+    margin-top: 15px;
+    margin-left: 6px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.Breakfast {
+
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+
+}
+
+.Start-your-day-with-exclusive-breakfast-options {
+
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #192f60;
+
+}
+
+
+.Image {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(157, 14, 14, 0), #170707), url('../images/image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width:540px) and (max-width:792px) {
+    .main-logo {
+        margin-left: 370px;
+    }
+
+    .Find-the-best-restaurants {
+        font-size: 25px;
+        font-weight: bold;
+
+        margin-left: 200px;
+    }
+
+    .over-image {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+
+
+    }
+
+    .select-text {
+        margin-left: 140;
+
+    }
+
+    .Quick-Searches {
+
+        margin-left: 120px;
+    }
+
+    .Find-the-best-restaurants-cafés {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    }
+
+
+}
+@media only screen and (max-width:540px) {
+    .main-logo {
+        margin-left: 220px;
+    }
+
+    .Find-the-best-restaurants {
+        font-size: 25px;
+        font-weight: bold;
+
+        margin-left: 8%;
+    }
+
+    .over-image {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+
+
+    }
+
+    .select-text {
+        margin-left: 11%;
+
+    }
+
+    .Quick-Searches {
+
+        margin-left: 30px;
+    }
+
+    .Discover-restaurants-by-type-of-meal {
+
+        margin-left: 70px;
+    }
+
+    .header-logo {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: -15px;
+
+    }
+
+    .row {
+        margin-right: -30px;
+    }
+
+    .Find-the-best-restaurants-cafés {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .Image {
+        height: 600px;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(157, 14, 14, 0), #170707), url('../images/image4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .Image2 {
+        height: 300px;
+    }
+
+    .row {
+        margin-left: 35px;
+    }
+
+    .Quick-Searches {
+
+
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:800px) {
+
+    .Image {
+        height: 600px;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(157, 14, 14, 0), #170707), url('../images/image4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .Image2 {
+        width: 50%;
+    }
+
+    .row {
+        margin-left: 35px;
+    }
+
+    .Quick-Searches {
+
+
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1024px) {
+
+    .Image {
+        height: 600px;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(157, 14, 14, 0), #170707), url('../images/image4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .Image2 {
+        width: 50%;
+    }
+
+    .row {
+        margin-left: 40px;
+    }.Quick-Searches {
+      margin-left: 102px;
+    }
+    .Discover-restaurants-by-type-of-meal {
+      margin-left: 102px;
+    }
+    .over-image {
+        top: 40%;
+    }
+}
